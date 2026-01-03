@@ -1,0 +1,17 @@
+[
+  {
+    "key": "shift+enter",
+    "command": "-python.execSelectionInTerminal",
+    "when": "editorTextFocus && editorLangId == 'python'"
+  },
+  {
+    "key": "shift+enter",
+    "command": "-workbench.action.terminal.runSelectedText",
+    "when": "editorTextFocus && editorLangId == 'python'"
+  },
+  {
+    "key": "shift+enter",
+    "command": "python.execSelectionInInteractiveWindow",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'python'"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "DJI": "sqlite:///DJI_data.db",
+  "FTSE100": "sqlite:///FTSE100_data.db",
+  "FTSE250": "sqlite:///FTSE250_data.db",
+  "SPY": "sqlite:///SPY_data.db"
+}
