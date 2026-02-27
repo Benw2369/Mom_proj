@@ -1,1 +1,23 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore database files (e.g., large .db files)
+*.db
+
+# Ignore data directory (if it contains large files you don't want to track)
+data/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore IDE and editor configurations
+.vscode/
+.idea/
+
+# Ignore Python virtual environment
 .venv/
+env/
+SPY_data.db
